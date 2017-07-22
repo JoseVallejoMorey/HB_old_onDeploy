@@ -1,0 +1,363 @@
+/* CSS Document */
+/*#contenedor_maximo{
+	padding:0;
+}
+#wraper{
+	margin:0;
+}
+.section{
+    margin:0px;
+    width:100%;
+    float:left;
+	z-index:1;
+}
+
+#pag1{
+    color:#fff;
+    background:#966;
+}
+#pag2{
+    color:#fff;
+    background:#696;
+}
+#pag3{
+    color:#fff;
+    background:#669;
+}
+#pag4{
+    color:#fff;
+    background:#a69;
+}
+#pag5{
+    color:#fff;
+    background:#6a3;
+}
+
+
+.text-col{
+	padding-top:40px;
+	padding-bottom:40px; 
+}
+	
+.ini{
+	height:80%;
+	background-color:#900;
+	margin-top:5%;}	
+
+
+
+#form_cont{
+	height:60%;
+	background-color:#663;
+	margin-top:10%;}
+@media (max-width: 768px) {
+	#socialbar{
+		bottom:0px;}
+	
+	.landing-box2{
+		height:120px;
+	}
+
+}
+
+
+
+
+
+
+/*LO NUEVO EMPIEZA AQUI*/
+
+/*logos de empresas*/
+/*.box_anuncio{
+	height: 230px;
+	background-color: green;
+	margin:3% 4.1%; 
+}
+
+.box_anuncio img{
+	margin-top: 5px;
+	width: 100%;
+	max-height: 80%;
+}
+
+.box_anuncio h5{
+	text-align: center;
+}
+
+/*slider*/
+/*.landing_slider_box{
+	background: yellow;
+	height: 220;
+	overflow: hidden;
+}
+
+.landing_slider{
+	width: 3000px;
+	background: red;
+	height: 200;
+}
+
+.landing_box{
+	height: 200px;
+	background: black;
+	margin: 0 20px;
+	float: left;
+}
+.indicators{
+	position: absolute;
+	width: 100%;
+}
+.landing_arrow{
+	width: 60px;
+	height: 60px;
+	top: 70px;
+	background-color: blue;
+	position: relative;
+	z-index: 1;
+}
+
+.arrow_left{
+
+	left: 20px;
+}
+.arrow_right{
+
+	right: 20px;
+}
+
+/*nube de tags*/
+
+/*#tags_list{}
+#tags_list li{
+	float: left;
+	width: 30%;
+	margin: 10px 1.6%;}*/
+
+
+#promo_content{
+  padding: 0;
+  margin: 0;
+}
+
+/*
+===================
+  FORMULARIOS DE PROMO
+===================
+*/
+
+/*forms de index*/
+
+
+#promo_form {height: 500px;}
+#promo_form_container{margin-top: 150px;}
+#promo_form_container .row{margin: 0;}
+#promo_form_container a{color: white;}
+#promo_form_container ul{
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+#promo_form_container .tab-content{
+  background-color: rgba(0, 0, 0, 0.55); 
+  border: 1px solid white;
+  -webkit-border-radius: 10px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius: 10px;
+  -moz-border-radius-topleft: 0;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+/*  border-top: none; */
+}
+#promo_form_container .nav-tabs li{
+  /*border: 1px solid white;
+  border-bottom: none;*/
+/*  background-color: rgba(0, 0, 0, 0.35);*/
+
+}
+#promo_form_container .nav-tabs li a{
+  border: 1px solid white;
+  border-bottom: none;
+  z-index: 2;
+  padding: 15px 20px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#promo_form_container .nav-tabs > li.active{
+/*  padding-top: 10px;*/
+}
+#promo_form_container .nav-tabs > li.active a,
+#promo_form_container .nav-tabs > li > a:hover {
+background-color: rgba(0, 0, 0, 0.55);
+/*border:none;*/
+border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+z-index: 1;
+}
+
+
+#promo_form_container .nav > li > a:focus, 
+#promo_form_container .nav > li > a:hover {
+  background-color: rgba(0, 0, 0, 0.55);
+  /*border:none; */
+}
+
+#promo_form_container #form-top{
+  padding: 20px 15px;
+}
+
+.promo-tag{
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+  float: left;
+}
+
+/*
+===================
+  MAPA DE PROMO
+===================
+*/
+
+#map-canvas {
+  height: 750px;
+  background-color: green;
+}
+
+
+/*
+===================
+  ANUNCIOS EN PROMO
+===================
+*/
+
+#promo_anuncios {
+  margin-top: 30px;
+  min-height: 600px;
+  background-color: white;
+}
+
+
+/*
+===================
+  EMPRESAS EN PROMO
+===================
+*/
+
+#promo_empresas {
+  height: 320px;
+  background-color: white;
+}
+
+#promo-slider{
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+#promo-slider .owl-item{float: left;}
+#promo-slider .item{margin: 20px;}
+#promo-slider .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#promo-slider .item{
+  display: block;
+  padding: 30px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.owl-theme .owl-controls .owl-buttons div {padding: 5px 9px;}
+.owl-theme .owl-buttons i{margin: 0px;}
+.owl-theme .owl-controls .owl-buttons div {position: absolute;}
+.owl-theme .owl-controls .owl-buttons .owl-prev{left: -45px;top: 140px; }
+.owl-theme .owl-controls .owl-buttons .owl-next{right: -45px;top: 140px;}
+.owl-theme .owl-controls{margin-top: 10px;text-align: center;}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;/*IE7 life-saver */
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: #869791;
+  filter: Alpha(Opacity=50);/*IE7 fix*/
+  opacity: 0.5;
+
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+  filter: Alpha(Opacity=100);/*IE7 fix*/
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+  display: inline-block;
+  zoom: 1;
+  *display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  filter: Alpha(Opacity=50);/*IE7 fix*/
+  opacity: 0.5;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+  filter: Alpha(Opacity=100);/*IE7 fix*/
+  opacity: 1;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../img/glyphicons-halflings-white.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+}
+
+.icon-chevron-left {background-position: -432px -72px;}
+.icon-chevron-right {background-position: -456px -72px;}
+
+
+/*
+===================
+  BANNERS EN PROMO
+===================
+*/
+
+.promo_central_banner{
+  background-color: #F4F5F9;
+  float: left;
+}

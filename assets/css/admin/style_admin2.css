@@ -1,0 +1,392 @@
+
+/*
+
+UTILIZADA EN PERFIL
+
+*/
+
+
+
+
+
+table img{
+	max-width:100px;}
+
+.form-actions a.btn{
+	margin-top:0;
+	margin-right: 5px;
+}
+
+/*Nuevo anuncio
+======================================================
+*/
+
+
+/* Wizard
+=================================================================== */
+.wizard-type1 {}
+.wizard-type1 .progress {
+  height: 4px;
+  margin: 1px -15px 0 -15px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.wizard-type1 ul.steps {
+  margin: 0 -15px;
+  line-height: 39px;
+  height: 39px;
+  background: #e4e5e6;
+  overflow: hidden;
+}
+.wizard-type1 ul.steps li {
+  margin: 0;
+}
+.wizard-type1 ul.steps li a {
+  padding: 0 10px;
+  height: 39px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  color: #3d3f42;
+  margin: 0;
+  font-size: 12px;
+}
+.wizard-type1 ul.steps li a .badge {
+  background-color: #d1d4d7;
+  color: #3d3f42;
+  margin-right: 5px;
+}
+
+
+.wizard-type1 ul.steps li a .badge-danger {
+  background-color: red;
+  color: white;
+}
+.wizard-type1 ul.steps li.active a .badge-danger {
+  background-color: #20a8d8;
+  color: white;
+}
+
+
+.wizard-type1 ul.steps li.active a {
+  background: white;
+  border-left: 1px solid #d1d4d7;
+  border-right: 1px solid #d1d4d7;
+  margin: 0 -1px;
+  color: #3d3f42;
+}
+.wizard-type1 ul.steps li.active a .badge {
+  background-color: #20a8d8;
+  color: white;
+}
+.wizard-type1 ul.steps li.complete a {
+  background: white;
+}
+.wizard-type1 ul.steps li.complete a .badge {
+  background-color: #4dbd74;
+  color: white;
+}
+.wizard-type1 .tab-pane {
+  padding: 15px 0;
+}
+.wizard-type1 .actions {
+  border-top: 1px solid #d1d4d7;
+  background: #e4e5e6;
+  margin: 0 -15px -15px -15px;
+  padding: 15px;
+  background-color: #fff;
+}
+.wizard-type1 .actions .btn{
+	float: right;
+}
+.wizard-type2 {
+  margin-top: -55px;
+}
+.wizard-type2 .progress {
+  height: 4px;
+  margin: 10px -5px 0 -5px;
+}
+.wizard-type2 ul.steps {
+  margin: 0 -15px;
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.wizard-type2 ul.steps li {
+  margin: 0;
+}
+.wizard-type2 ul.steps li a {
+  padding: 0 20px;
+  height: 40px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  color: #d1d4d7;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 300;
+}
+.wizard-type2 ul.steps li.active a {
+  background: transparent;
+  color: #7a7f84;
+  border-bottom: 1px solid #7a7f84;
+}
+.wizard-type2 ul.steps li.complete a {
+  background: transparent;
+  color: #4dbd74;
+  border-bottom: 1px solid #4dbd74;
+}
+.wizard-type2 .tab-pane {
+  padding: 15px 0;
+}
+
+.borrador-cont{
+	float: left;
+	padding: 5px 10px;
+	border: 1px solid silver;
+	margin: 0 10px;
+}
+/*check-friend (tiene mas tela de lo que parece)
+==============================================*/
+.actions .check-friend{}
+.check-friend p {text-align: left;}
+.check-friend{	padding:4px 10px; width: 100%;}
+.check-friend,.input-group{	float:left;}
+.check-friend input{float: left; margin-right: 10px;}
+.check-friend:hover{background-color: white;}
+
+.foot-btn .check-friend{ float: right; padding: 10px 30px 0 20px; margin-top: 7px;}
+.foot-btn .check-friend input{float: left; margin: 4px 10px 0 0; padding: 0 10px 0 10px;}
+.foot-btn .check-friend p{padding-left: 10px;}
+
+/*superficie========================*/
+#caracteristicas-superficie{}
+#exteriores{}
+#exteriores table{
+	width: 100%;
+	margin: 10px 0 ;
+}
+#exteriores .input-group{ margin-left: 30px;}
+
+#mst-group{}
+#caracteristicas-superficie #mst-group select{
+	float:left;
+	width:46%;
+	height:28px;}
+#caracteristicas-superficie .form-group{
+	margin:3px 0px;}
+#caracteristicas-superficie .check-friend{
+	width:100%;
+	margin-top:5px;}
+#mst-group .input-group{
+	float:left;
+	width: 46%;
+	margin-left: 5%;}
+
+.super-hidden{display:none;}
+
+/*extras===========================*/
+#extras{padding-right: 0;}
+#extras-list{
+	float: left;
+	padding: 10px 0px;
+	margin: 10px 0px;}
+
+#extras-list li{
+	list-style: none;
+	float: left;
+	padding: 5px 0;
+	color:silver;
+
+}
+
+#extras-list label{
+	margin-left: 10px;
+}
+
+#extras-list li:hover{color:#000000;
+background-color: #F5F5F5;}
+
+#extras-list input:checked{
+	color: #000000;
+}
+
+#extras-list input,
+#caracteristicas-precio input[type="checkbox"],
+#caracteristicas-superficie input[type="checkbox"]{
+	float:left;}
+
+#extras-list p{
+	float:left;
+	margin-left:10px;}
+	
+#direccion_datos .form_control select{width:50%;}
+
+
+#anuncio-map-canvas{
+  height: 300px;
+}
+#panel{
+  padding:0;
+}
+
+#panel input[type="button"]{
+  float: right;
+}
+#panel #direccion{
+  padding: 4px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*nuevo anuncio parte 2*/
+#img-updater{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+#imagenes{
+  float: left;
+}
+#imgenvio{
+  float: right;
+}
+#img_ajax textarea{ height:130px; margin:0; resize:none;}
+#img_ajax .btn{ margin: 0px 10px 20px;}
+
+
+#lang-response{
+  margin-top: 20px;
+}
+#lang-response .panel{
+  border: 1px solid silver;
+  margin-bottom: 20px;
+}
+.lang-text{padding:0;}
+.lang-text textarea{
+  min-height:100px;
+  margin: 10px 0;
+}
+.lang-foot{
+  margin: 10px 0;
+}
+
+#rooms-bannos{
+	padding:10px 0;
+	background-color:#F5F5F5;
+	}
+
+
+#crear-anuncio table td{padding:5px 0px;}
+#crear-anuncio #rooms-bannos table {width: 94%; margin: 0 3%;}
+#crear-anuncio #rooms-bannos table td:first-child{ width:40%;}	
+#crear-anuncio #imagenes-anuncio img{	height:120px;}
+
+#img_ajax img{		height:130px;	}	
+
+#opciones a{		color:#FFF;		}	
+#accordion img {	height:70px;	}
+#promocionar{		width:100%;		}	
+
+
+
+
+#tabla-imagenes{		
+	height: 300px;
+	overflow: scroll;
+	overflow-x:hidden; 
+}	
+
+
+
+
+
+
+
+
+
+/*CONFIGURACION DE USUARIO
+===========================================
+*/
+
+#form-oficina{}
+#form-agente{}
+.img-assist{}
+.img-assist input{
+  border:none;
+  padding: 0;
+}
+
+#form-oficina input[name="movil2"]{
+  margin-top: 10px;
+}
+#form-oficina label.checkbox-inline{
+  padding:10px 20px;
+}
+#perfil-empresa input[type="submit"],
+#form-oficina input[type="submit"],
+#form-agente input[type="submit"]{
+  float: right;
+  margin-top: 20px;
+}
+
+.oficina-sede img{
+  width: 100%;
+}
+.oficina-sede{
+  margin: 10px 15px;
+
+}
+.oficina-desc{
+  float: left;
+}
+.oficina-vista{
+  border-bottom: 1px silver solid;
+  margin-top: 15px;
+}
+.oficina-vista .panel-heading h2{
+
+}
+.oficina-vista img{
+  margin-bottom: 15px;
+}
+.oficina-vista .dropdown{
+  float: right;
+}
+.oficina-vista .alert{
+  float: right;
+clear: left;
+padding: 5px 20px;
+}
+.panel-agente .row{
+  margin: 0;
+}
+.agente-vista .dropdown{
+ /* float: right;*/
+}
+
+.agente-vista img{
+  width: 100%;
+max-height: 210px;
+}
+

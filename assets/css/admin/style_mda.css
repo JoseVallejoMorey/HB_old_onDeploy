@@ -1,0 +1,61 @@
+/*mda
+===========================================
+*/
+
+li{list-style:none;}
+
+#stock-response h3{
+	clear:left;
+	}
+#stock-response ul{
+	clear:left;
+	padding-left:0;}
+.bucket-cont{
+	float: left;
+	width: 50%;
+}
+
+.stock-title{}
+.stock-title li{float:left;padding:0 40px;}	
+.stock-title li:last-child{float:right;}
+.stock-monstruario{padding:0;}
+
+.stock-monstruario li{
+	float:left;
+	width:90px;
+	height:90px;
+	margin:8px 3px;
+	border:#033 solid 2px;
+	background-color:#0C3;}
+
+.stock-monstruario li img{
+	width:100%;
+	max-height:80%;}
+.stock-monstruario li span{
+	float:right;
+	width:100%;
+	font-weight:600;}
+
+#user_options span{
+	float:left;
+	width:32px;
+	height:32px;}
+
+.renew-response{
+	height: 200px;
+	width:100%;
+	background-color: yellow;
+	display: none;}	
+
+#confirm_response{
+	height: 200px;
+	background-color: yellow;
+	display: none;}
+
+/*link creator*/
+#nu_link td{
+	width: 16.6%;}
+
+#nu_link select,
+#nu_link input{
+	width: 100%;}
